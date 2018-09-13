@@ -3,8 +3,9 @@
 
 使用树莓派读取攀藤设备
 
-#if __name__ == '__main__':
-#    test = plantower('/dev/ttyAMA0')
-#    test.openSerial()
-#    test.getDataStart()
-#    print(test.dataAnalysis())
+···python
+if __name__ == '__main__':<br>
+    test = plantower('/dev/ttyAMA0')<br>
+    test.openSerial()<br>
+    test.getDataStart()<br>
+    print(test.dataAnalysis())<br>
